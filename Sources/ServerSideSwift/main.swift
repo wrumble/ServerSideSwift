@@ -1,5 +1,5 @@
 import Kitura
-
+import Foundation
 
 struct User: Codable {
     let name: String
