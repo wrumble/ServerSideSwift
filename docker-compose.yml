@@ -1,6 +1,6 @@
 web:
   build: .
-  command: "bash -c 'App --env=production --workdir=/ServerSideSwift/'"
+  command: "bash -c 'ServerSideSwift --env=production --workdir=/ServerSideSwift/'"
   working_dir: /ServerSideSwift/
   environment:
     PORT: 8080
