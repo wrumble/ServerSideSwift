@@ -1,6 +1,6 @@
 FROM swiftdocker/swift
 ADD . /ServerSideSwift
 WORKDIR /ServerSideSwift
-CMD swift build --configuration release
+CMD swift run
 EXPOSE 8080
 ENTRYPOINT [".build/release/ServerSideSwift"]

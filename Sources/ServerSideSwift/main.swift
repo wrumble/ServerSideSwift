@@ -12,14 +12,14 @@ router.get("/") { request, response, next in
 }
 
 router.post("/hello") { request, response, next in
-    print("Request body: \(request.body)")
+    var message: String
     do {
         let movie = try request.read(as: Movie.self)
-        response.send("Hello \(movie.title)!")
+        message = "Hello \(movie.title)!"
     } catch let error {
-        response.send("Couldnt read movie: \(error)")
+        message = "Couldnt read movie: \(error)"
     }
-    
+    response.send(message)
     next()
 }
 
