@@ -8,7 +8,7 @@ RUN useradd myuser && \
 
 USER myuser
 
-EXPOSE 80
+EXPOSE 8080
 
 RUN swift build -c release
 CMD .build/release/ServerSideSwift
