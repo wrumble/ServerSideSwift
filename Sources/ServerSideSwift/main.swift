@@ -1,7 +1,7 @@
 import Kitura
 
-struct Movie: Codable {
-    let title: String
+struct User: Codable {
+    let name: String
 }
 
 let router = Router()
@@ -14,8 +14,8 @@ router.get("/") { request, response, next in
 router.post("/hello") { request, response, next in
     var message: String
     do {
-        let movie = try request.read(as: Movie.self)
-        message = "Hello \(movie.title)!"
+        let user = try request.read(as: User.self)
+        message = "Hello \(user.name)!"
     } catch let error {
         message = "Couldnt read movie: \(error)"
     }
