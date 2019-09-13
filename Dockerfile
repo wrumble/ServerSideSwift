@@ -1,14 +1,14 @@
-FROM ibmcom/swift-ubuntu:5.0.2
+FROM swiftdocker/swift
 
 ADD ./ /ServerSideSwift
 WORKDIR /ServerSideSwift
 
-RUN useradd myuser && \
-    chown -R myuser /ServerSideSwift
+# RUN useradd myuser && \
+#     chown -R myuser /ServerSideSwift
 
-USER myuser
+# USER myuser
 
-EXPOSE 8080
+# EXPOSE 8080
 
 RUN swift build -c release
 CMD .build/release/ServerSideSwift
