@@ -9,7 +9,7 @@ RUN useradd myuser && \
 USER myuser
 
 RUN swift build -c release
-ENV PATH /app/.build/release:$PATH
+ENV PATH /ServerSideSwift/.build/release:$PATH
 CMD .build/release/ServerSideSwift --env=production --workdir="/ServerSideSwift"
 
 EXPOSE 8080
