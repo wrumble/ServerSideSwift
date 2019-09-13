@@ -1,4 +1,4 @@
-FROM swiftdocker/swift
+FROM ibmcom/swift-ubuntu:5.0.2
 
 ADD ./ /ServerSideSwift
 WORKDIR /ServerSideSwift
@@ -8,8 +8,7 @@ RUN useradd myuser && \
 
 USER myuser
 
-RUN swift build -c release
-ENV PATH /ServerSideSwift/.build/release:$PATH
-CMD .build/release/ServerSideSwift --env=production --workdir="/ServerSideSwift"
-
 EXPOSE 8080
+
+RUN swift build -c release
+CMD .build/release/ServerSideSwift

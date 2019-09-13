@@ -1,5 +1,6 @@
 import Kitura
 
+
 struct User: Codable {
     let name: String
 }
