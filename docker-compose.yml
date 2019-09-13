@@ -1,8 +1,0 @@
-web:
-  build: .
-  command: "bash -c 'ServerSideSwift --env=production --workdir=/ServerSideSwift/'"
-  working_dir: /ServerSideSwift/
-  environment:
-    PORT: 8080
-  ports:
-    - '8080:8080'
