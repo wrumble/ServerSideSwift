@@ -23,6 +23,7 @@ router.post("/hello") { request, response, next in
     response.send(message)
     next()
 }
+let port = Int(ProcessInfo.processInfo.environment["PORT"] ?? "80") ?? 80
 
-Kitura.addHTTPServer(onPort: 80, with: router)
+Kitura.addHTTPServer(onPort: port, with: router)
 Kitura.run()
