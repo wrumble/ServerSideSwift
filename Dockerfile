@@ -10,5 +10,3 @@ USER myuser
 
 ENV PATH /app/.build/release:$PATH
 CMD .build/release/App --env=production --workdir="/ServerSideSwift"
-
-EXPOSE 8080
