@@ -2,11 +2,11 @@
 
 ## Steps to re-create app: 
 
-Install swift, heroku and docker on your machine
+Install Swift, Heroku and Docker on your machine
 
 ## Create the app
 
-### Create App root directory
+### Create app root directory
 `mkdir YourAppName`
 
 `cd YourAppName`
@@ -19,7 +19,7 @@ Install swift, heroku and docker on your machine
 ### Add packages(optional)
 `open Package.swift`
 
-In `Package.swift` in the empty depenendencies array add a package using its repo url and version number
+In `Package.swift` in the empty `depenendencies` array add a package using its repo url and version number
 
 ```
 dependencies: [
@@ -27,7 +27,7 @@ dependencies: [
     ],
 ```
 
-Then add the package name to the target you will use in, in this case the main app
+Then add the package name to the `target` you will use in, in this case the main app
 
 ```
     targets: [
