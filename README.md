@@ -118,12 +118,13 @@ COPY . .
 # Build the app as a release version on the image container, this could also be just "RUN swift build"
 RUN swift build -c release
 
-# Run the app on the container, if you used "RUN swift build" in the step abouve this would be "CMD .build/debug/YourAppName". 
+# Run the app on the container, if you used "RUN swift build" in the step above this would be "CMD .build/debug/YourAppName"
 CMD .build/release/YourAppName
 ```
 
-## Create the docker container
+### Create the docker container
 Once registered with Docker and Docker installed 
+
 `docker build -t YourContainerName .`
 
 ### Test run the app in the new container
@@ -131,8 +132,15 @@ Once registered with Docker and Docker installed
 
 You can view it again at `http://localhost:<YourPortNumber>` 
 
-### Push new container to Heroku
+## Push new container to Heroku
 Once registered with Heroku and Heroku installed
+
+### Add all files and commit to git
+This prepares the app to be pushed to Heroku as a repo
+
+`git add .`
+
+`git commit -m "Initial Commit"`
 
 ### Login
 `heroku login`
@@ -142,20 +150,13 @@ Follow prompts to login
 ### Create app on Heroku
 `heroku create HerokuAppName`
 
-### Add all files and commit to git
-This prepares the app to be pushed to Heroku as a repo
-
-`git add .`
-
-`git commit -m "Initial Commit"`
-
-### Push Docker contatiner to heroku
+### Push Docker contatiner to Heroku
 `heroku container:push web --app HerokuAppName`
 
 ### Release app on Heroku
 `heroku container:release web -a HerokuAppName`
 
-### View running app on heroku
+### View running app on Heroku
 `heroku open`
 
 ### View logs of Heroku app 
