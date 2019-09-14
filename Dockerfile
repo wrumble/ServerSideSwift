@@ -1,4 +1,4 @@
-FROM swift
+FROM swift:latest as builder
 
 ADD ./ /ServerSideSwift
 WORKDIR /ServerSideSwift
