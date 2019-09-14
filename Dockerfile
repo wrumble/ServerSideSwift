@@ -1,4 +1,4 @@
-FROM swift:latest as builder
+FROM ibmcom/swift-ubuntu:5.0.2
 
 ADD ./ /ServerSideSwift
 WORKDIR /ServerSideSwift
