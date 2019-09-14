@@ -12,7 +12,7 @@ router.get("/") { request, response, next in
     next()
 }
 
-router.post("/hello") { request, response, next in
+router.post("/user") { request, response, next in
     var message: String
     do {
         let user = try request.read(as: User.self)

@@ -39,7 +39,48 @@ Then add the package name to the target you will use in, in this case the main a
 
 ### Write some code
 
-Add code to `Sources/YourAppName/main.swift` in this case Kitura is used to setup the app routes.
+Add code to `Sources/YourAppName/main.swift` in this case Kitura is used to setup the app routes like so
+
+```
+import Kitura
+import Foundation
+
+// Create a simple, "User" model that conforms to "Codable" ready to be translated from a post request with the path "/user"
+struct User: Codable {
+    let name: String
+}
+
+let router = Router()
+
+// Create a get request endpoint on the home path "/" that responds with "Hello world"
+router.get("/") { request, response, next in
+    response.send("Hello world!")
+
+    // Signal this middleware is done with its work
+    next()
+}
+
+// Creat post request endpoint on the "/user" path that when given a User in the form of json the return "Hello UsersNameFromJson!"
+// On failure of reading the given json return message containing the error 
+router.post("/user") { request, response, next in
+    var message: String
+    do {
+        let user = try request.read(as: User.self)
+        message = "Hello \(user.name)!"
+    } catch let error {
+        message = "Could not read user json: \(error)"
+    }
+    response.send(message)
+    next()
+}
+
+// Set the port the router will use to the current Environments port or 8080. This isn't required but was the only way i could get the port set properly, trying to set it in the docker file did not work, nor did just setting "port" variable to "YourPortNumber"
+let port = Int(ProcessInfo.processInfo.environment["PORT"] ?? "YourPortNumber") ?? YourPortNumber
+
+// Run the server
+Kitura.addHTTPServer(onPort: port, with: router)
+Kitura.run()
+```
 
 ### Make app executable from Xcode(optional)
 `swift package generate-xcodeproj`
@@ -77,43 +118,43 @@ RUN swift build -c release
 CMD .build/release/YourAppName
 ```
 
-# Create the docker container
+## Create the docker container
 Once registered with Docker and Docker installed 
 `docker build -t YourContainerName .`
 
-# Test run the app in the new container
+### Test run the app in the new container
 `docker run --rm -it -p YourPortNumber:YourPortNumber YourAppName`
 
 You can view it again at `http://localhost:<YourPortNumber>` 
 
-## Push new container to Heroku
+### Push new container to Heroku
 Once registered with Heroku and Heroku installed
 
-# Login
+### Login
 `heroku login`
 Follow prompts to login
 
-# Create app on Heroku
+### Create app on Heroku
 `heroku create HerokuAppName`
 
-# Add all files and commit to git
+### Add all files and commit to git
 This prepares the app to be pushed to Heroku as a repo
 `git add .`
 `git commit -m "Initial Commit"`
 
-# Push Docker contatiner to heroku
+### Push Docker contatiner to heroku
 `heroku container:push web --app HerokuAppName`
 
-# Release app on Heroku
+### Release app on Heroku
 `heroku container:release web -a HerokuAppName`
 
-# View running app on heroku
+### View running app on heroku
 `heroku open`
 
-# View logs of Heroku app 
+### View logs of Heroku app 
 `heroku logs --tail`
 
-# Test App on Heroku
+###  Test App on Heroku
 Make get request on homepage
 `curl -X GET https://HerokuAppName.herokuapp.com/`
 
