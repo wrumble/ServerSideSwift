@@ -1,6 +1,6 @@
 # ServerSideSwift
 
-## Steps take to create:
+## Steps to re-create app: 
 
 Install swift, heroku and docker on your machine
 
@@ -8,10 +8,12 @@ Install swift, heroku and docker on your machine
 
 ### Create App root directory
 `mkdir YourAppName`
+
 `cd YourAppName`
 
 ### Autogenerate package files
 `git init`
+
 `swift package init --type executable`
 
 ### Add packages(optional)
@@ -97,7 +99,9 @@ To see the app go to `http://localhost:<YourPortNumber>` in this case our port n
 
 ### Create `Dockerfile`
 Still in app root directory
+
 `touch Dockerfile`
+
 `open Dockerfile`
 
 In `Dockerfile` add
@@ -132,6 +136,7 @@ Once registered with Heroku and Heroku installed
 
 ### Login
 `heroku login`
+
 Follow prompts to login
 
 ### Create app on Heroku
@@ -139,7 +144,9 @@ Follow prompts to login
 
 ### Add all files and commit to git
 This prepares the app to be pushed to Heroku as a repo
+
 `git add .`
+
 `git commit -m "Initial Commit"`
 
 ### Push Docker contatiner to heroku
@@ -156,9 +163,11 @@ This prepares the app to be pushed to Heroku as a repo
 
 ###  Test App on Heroku
 Make get request on homepage
+
 `curl -X GET https://HerokuAppName.herokuapp.com/`
 
 Post a User to the Heroku app
+
 `curl -X POST https://HerokuAppName.herokuapp.com/user -H 'content-type: application/json' -d '{"name": "Wayne"}'`
 
 
