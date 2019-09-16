@@ -76,7 +76,7 @@ router.post("/user") { request, response, next in
     next()
 }
 
-// Set the port the router will use to the current Environments port or 8080. This isn't required but was the only way i could get the port set properly, trying to set it in the docker file did not work, nor did just setting "port" variable to "YourPortNumber"
+// Set the port the router will use to the current Environments port or YourPortNumber. This isn't required but was the only way i could get the port set properly, trying to set it in the docker file did not work, nor did just setting "port" variable to "YourPortNumber"
 let port = Int(ProcessInfo.processInfo.environment["PORT"] ?? "YourPortNumber") ?? YourPortNumber
 
 // Run the server
