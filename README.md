@@ -125,10 +125,10 @@ CMD .build/release/YourAppName
 ### Create the docker container
 Once registered with Docker and Docker installed 
 
-`docker build -t YourContainerName .`
+`docker build -t your-container-name .` note: container name must be lowercase
 
 ### Test run the app in the new container
-`docker run --rm -it -p YourPortNumber:YourPortNumber YourAppName`
+`docker run --rm -it -p YourPortNumber:YourPortNumber your-container-name`
 
 You can view it again at `http://localhost:<YourPortNumber>` 
 
@@ -143,7 +143,13 @@ This prepares the app to be pushed to Heroku as a repo
 `git commit -m "Initial Commit"`
 
 ### Login
+Login to Heroku
+
 `heroku login`
+
+Login into the Heroku container
+
+`heroku container:login`
 
 Follow prompts to login
 
