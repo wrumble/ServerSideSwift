@@ -90,7 +90,7 @@ Kitura.run()
 ### Run the app
 `swift run` note: currently doesnt work on Catalina MacOs
 
-alternatively run it in Xcode by pressing play
+alternatively run it in Xcode by pressing play, this will require you to have run `swift package generate-xcodeproj` before hand though.
 
 ### View the app
 To see the app go to `http://localhost:<YourPortNumber>` in this case our port number is `8080`
