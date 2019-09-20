@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
-options: "18341f6d4f0e01016eff00f3c5e2aa97"
-build_time: [1568336949, 497058000]
-inputs:
-  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/TypeDecoder/Sources/TypeDecoder/OrderedDictionary.swift": [1568336942, 472064778]
-  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/TypeDecoder/Sources/TypeDecoder/TypeDecoder.swift": [1568336942, 472540019]

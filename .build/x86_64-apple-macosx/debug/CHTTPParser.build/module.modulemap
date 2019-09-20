@@ -1,4 +1,0 @@
-module CHTTPParser {
-    umbrella header "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura-net/Sources/CHTTPParser/include/CHTTPParser.h"
-    export *
-}

@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
-options: "ed678d63f9a10cf6225b804ad98129ab"
-build_time: [1568336971, 206840000]
-inputs:
-  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/BlueSSLService/Sources/SSLService/SSLPointerTricks.swift": [1568336942, 48726371]
-  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/BlueSSLService/Sources/SSLService/SSLService.swift": [1568336942, 49769922]

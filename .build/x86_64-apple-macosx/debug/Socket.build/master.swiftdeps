@@ -1,7 +1,0 @@
-version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
-options: "e0f5bd4cac8e86e22a50b9b25dafae36"
-build_time: [1568336949, 498496000]
-inputs:
-  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/BlueSocket/Sources/Socket/Socket.swift": [1568336939, 922978356]
-  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/BlueSocket/Sources/Socket/SocketProtocols.swift": [1568336939, 923539715]
-  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/BlueSocket/Sources/Socket/SocketUtils.swift": [1568336939, 923860666]
