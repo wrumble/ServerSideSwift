@@ -76,7 +76,7 @@ router.post("/user") { request, response, next in
     next()
 }
 
-// Set the port the router will use to the current Environments port or 8080. This isn't required but was the only way i could get the port set properly, trying to set it in the docker file did not work, nor did just setting "port" variable to "YourPortNumber"
+// Set the port the router will use to the current Environments port or YourPortNumber. This isn't required but was the only way i could get the port set properly, trying to set it in the docker file did not work, nor did just setting "port" variable to "YourPortNumber"
 let port = Int(ProcessInfo.processInfo.environment["PORT"] ?? "YourPortNumber") ?? YourPortNumber
 
 // Run the server
@@ -90,7 +90,7 @@ Kitura.run()
 ### Run the app
 `swift run` note: currently doesnt work on Catalina MacOs
 
-alternatively run it in Xcode by pressing play
+alternatively run it in Xcode by pressing play, this will require you to have run `swift package generate-xcodeproj` before hand though.
 
 ### View the app
 To see the app go to `http://localhost:<YourPortNumber>` in this case our port number is `8080`
@@ -125,10 +125,10 @@ CMD .build/release/YourAppName
 ### Create the docker container
 Once registered with Docker and Docker installed 
 
-`docker build -t YourContainerName .`
+`docker build -t your-container-name .` note: container name must be lowercase
 
 ### Test run the app in the new container
-`docker run --rm -it -p YourPortNumber:YourPortNumber YourAppName`
+`docker run --rm -it -p YourPortNumber:YourPortNumber your-container-name`
 
 You can view it again at `http://localhost:<YourPortNumber>` 
 
@@ -143,7 +143,13 @@ This prepares the app to be pushed to Heroku as a repo
 `git commit -m "Initial Commit"`
 
 ### Login
+Login to Heroku
+
 `heroku login`
+
+Login into the Heroku container
+
+`heroku container:login`
 
 Follow prompts to login
 
