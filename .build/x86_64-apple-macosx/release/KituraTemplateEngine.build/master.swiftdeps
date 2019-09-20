@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "59dad2034cc04320470def77b6a1c556"
+build_time: [1568412288, 548186000]
+inputs:
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura-TemplateEngine/Sources/KituraTemplateEngine/TemplateEngine.swift": [9223372036, 854775807]

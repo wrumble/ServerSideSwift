@@ -1,0 +1,330 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HeliumLogHandler"
+provides-nominal:
+- "12HeliumLogger0A10LogHandlerV"
+provides-member:
+- ["12HeliumLoggerAAC", ""]
+- ["12HeliumLogger0A10LogHandlerV", ""]
+- ["7Logging6LoggerV5LevelO", ""]
+- ["12HeliumLoggerAAC", "bootstrapSwiftLog"]
+- ["12HeliumLoggerAAC", "makeLogHandler"]
+- ["12HeliumLoggerAAC", "makeLogHandler"]
+- ["7Logging6LoggerV5LevelO", "color"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "??"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "FloatLiteralType"
+- "HeliumLogHandler"
+- "HeliumLogger"
+- !private "Int"
+- !private "IntegerLiteralType"
+- "LogHandler"
+- "Logger"
+- !private "LoggingSystem"
+- "String"
+- !private "StringLiteralType"
+- "TerminalColor"
+- "TernaryPrecedence"
+- "UInt"
+- !private "UnicodeScalarType"
+- "Void"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "joined"]
+- !private ["SK", "joined"]
+- !private ["Sz", "init"]
+- ["s7CVarArgP", "Value"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "merging"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s12CaseIterableP", "color"]
+- ["s12CaseIterableP", "error"]
+- ["s12CaseIterableP", "info"]
+- ["s12CaseIterableP", "warning"]
+- ["Sl", "Value"]
+- ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "joined"]
+- !private ["Sl", "map"]
+- !private ["Sl", "merging"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "color"]
+- ["SL", "error"]
+- ["SL", "info"]
+- !private ["SL", "init"]
+- ["SL", "warning"]
+- !private ["10Foundation15ContiguousBytesP", "joined"]
+- ["s28CustomDebugStringConvertibleP", "Value"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "merging"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s17CustomReflectableP", "Value"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "merging"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "Value"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "merging"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "joined"]
+- ["Se", "Value"]
+- ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "joined"]
+- !private ["Se", "map"]
+- !private ["Se", "merging"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SD", "Value"]
+- ["SD", "init"]
+- !private ["SD", "isEmpty"]
+- !private ["SD", "map"]
+- !private ["SD", "merging"]
+- !private ["SD", "subscript"]
+- ["SE", "Value"]
+- ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "joined"]
+- !private ["SE", "map"]
+- !private ["SE", "merging"]
+- !private ["SE", "subscript"]
+- ["SQ", "Value"]
+- !private ["SQ", "color"]
+- ["SQ", "error"]
+- !private ["SQ", "foreground"]
+- ["SQ", "info"]
+- ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "joined"]
+- !private ["SQ", "map"]
+- !private ["SQ", "merging"]
+- !private ["SQ", "red"]
+- !private ["SQ", "subscript"]
+- ["SQ", "warning"]
+- !private ["SQ", "yellow"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "isEmpty"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "map"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "merging"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", "Value"]
+- !private ["SH", "color"]
+- ["SH", "error"]
+- !private ["SH", "foreground"]
+- ["SH", "info"]
+- ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "joined"]
+- !private ["SH", "map"]
+- !private ["SH", "merging"]
+- !private ["SH", "red"]
+- !private ["SH", "subscript"]
+- ["SH", "warning"]
+- !private ["SH", "yellow"]
+- ["12HeliumLogger0A10LogHandlerV", "HeliumLogger"]
+- !private ["12HeliumLogger0A10LogHandlerV", "Int"]
+- ["12HeliumLogger0A10LogHandlerV", "Logger"]
+- ["12HeliumLogger0A10LogHandlerV", "String"]
+- ["12HeliumLogger0A10LogHandlerV", "UInt"]
+- ["12HeliumLogger0A10LogHandlerV", "deinit"]
+- ["12HeliumLogger0A10LogHandlerV", "init"]
+- !private ["12HeliumLogger0A10LogHandlerV", "label"]
+- ["12HeliumLogger0A10LogHandlerV", "log"]
+- ["12HeliumLogger0A10LogHandlerV", "logLevel"]
+- !private ["12HeliumLogger0A10LogHandlerV", "logger"]
+- ["12HeliumLogger0A10LogHandlerV", "metadata"]
+- !private ["12HeliumLogger0A10LogHandlerV", "prettify"]
+- !private ["12HeliumLogger0A10LogHandlerV", "prettyMetadata"]
+- ["12HeliumLogger0A10LogHandlerV", "subscript"]
+- ["12HeliumLoggerAAC", "HeliumLogHandler"]
+- ["12HeliumLoggerAAC", "HeliumLogger"]
+- !private ["12HeliumLoggerAAC", "LoggingSystem"]
+- ["12HeliumLoggerAAC", "String"]
+- ["12HeliumLoggerAAC", "Void"]
+- ["12HeliumLoggerAAC", "bootstrapSwiftLog"]
+- !private ["12HeliumLoggerAAC", "defaultLogger"]
+- !private ["12HeliumLoggerAAC", "doPrint"]
+- !private ["12HeliumLoggerAAC", "formatEntry"]
+- ["12HeliumLoggerAAC", "init"]
+- ["12HeliumLoggerAAC", "makeLogHandler"]
+- !private ["Si", "init"]
+- ["7Logging6LoggerV5LevelO", "TerminalColor"]
+- ["7Logging6LoggerV5LevelO", "color"]
+- ["7Logging6LoggerV5LevelO", "error"]
+- ["7Logging6LoggerV5LevelO", "info"]
+- ["7Logging6LoggerV5LevelO", "warning"]
+- !private ["7Logging10LogHandlerP", "Int"]
+- ["7Logging10LogHandlerP", "Logger"]
+- ["7Logging10LogHandlerP", ""]
+- !private ["7Logging10LogHandlerP", "init"]
+- !private ["7Logging10LogHandlerP", "label"]
+- ["7Logging10LogHandlerP", "log"]
+- ["7Logging10LogHandlerP", "logLevel"]
+- !private ["7Logging10LogHandlerP", "logger"]
+- ["7Logging10LogHandlerP", "metadata"]
+- !private ["7Logging10LogHandlerP", "prettify"]
+- !private ["7Logging10LogHandlerP", "prettyMetadata"]
+- ["7Logging10LogHandlerP", "subscript"]
+- !private ["9LoggerAPI0A0P", "HeliumLogHandler"]
+- ["9LoggerAPI0A0P", "HeliumLogger"]
+- ["7Logging6LoggerV", "Level"]
+- !private ["9LoggerAPI0A0P", "LoggingSystem"]
+- ["7Logging6LoggerV", "Message"]
+- ["7Logging6LoggerV", "Metadata"]
+- !private ["9LoggerAPI0A0P", "defaultLogger"]
+- !private ["9LoggerAPI0A0P", "doPrint"]
+- !private ["9LoggerAPI0A0P", "formatEntry"]
+- ["9LoggerAPI0A0P", "init"]
+- !private ["9LoggerAPI0A0P", "makeLogHandler"]
+- !private ["7Logging0A6SystemO", "bootstrap"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "joined"]
+- !private ["10Foundation19MutableDataProtocolP", "joined"]
+- !private ["Sj", "init"]
+- !private ["Sk", "joined"]
+- !private ["Sm", "joined"]
+- !private ["SY", "foreground"]
+- !private ["SY", "red"]
+- !private ["SY", "yellow"]
+- !private ["s10SIMDScalarP", "init"]
+- ["ST", "Value"]
+- ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "joined"]
+- !private ["ST", "map"]
+- !private ["ST", "merging"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["12HeliumLogger13TerminalColorO", "foreground"]
+- !private ["12HeliumLogger13TerminalColorO", "red"]
+- !private ["12HeliumLogger13TerminalColorO", "yellow"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "joined"]
+- ["s35_HasCustomAnyHashableRepresentationP", "Value"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "merging"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["s21_ObjectiveCBridgeableP", "Value"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "merging"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- "s7CVarArgP"
+- "s12CaseIterableP"
+- "Sl"
+- "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SD"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- "12HeliumLogger0A10LogHandlerV"
+- "12HeliumLoggerAAC"
+- !private "Si"
+- "7Logging6LoggerV5LevelO"
+- "7Logging10LogHandlerP"
+- "9LoggerAPI0A0P"
+- "7Logging6LoggerV"
+- !private "9LoggerAPI0A0P"
+- "7Logging6LoggerV"
+- "9LoggerAPI0A0P"
+- !private "7Logging0A6SystemO"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "s10SIMDScalarP"
+- "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "12HeliumLogger13TerminalColorO"
+- !private "s16TextOutputStreamP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/LoggerAPI.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/CHTTPParser.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a9a491a8848b4d47b500802f00d5f20b"

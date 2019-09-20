@@ -1,0 +1,277 @@
+{
+  "": {
+    "dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/Kitura.d",
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/Kitura.o",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/master.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/AdditionalCookieAttribute.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/AdditionalCookieAttribute.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/AdditionalCookieAttribute~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/AdditionalCookieAttribute.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/CodableRouter+TypeSafeMiddleware.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/CodableRouter+TypeSafeMiddleware.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/CodableRouter+TypeSafeMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/CodableRouter+TypeSafeMiddleware.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/CodableRouter.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/CodableRouter.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/CodableRouter~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/CodableRouter.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/DecodingError+Extensions.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/DecodingError+Extensions.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/DecodingError+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/DecodingError+Extensions.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/Error.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/Error.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/Error~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/Error.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/FileResourceServer.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/FileResourceServer.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/FileResourceServer~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/FileResourceServer.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/HTTPStatusCode.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/HTTPStatusCode.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/HTTPStatusCode~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/HTTPStatusCode.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/HTTPVersion.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/HTTPVersion.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/HTTPVersion~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/HTTPVersion.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/Headers.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/Headers.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/Headers~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/Headers.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/InternalError.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/InternalError.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/InternalError~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/InternalError.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/JSONPError.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/JSONPError.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/JSONPError~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/JSONPError.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/Kitura+Logging.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/Kitura+Logging.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/Kitura+Logging~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/Kitura+Logging.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/Kitura.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/Kitura.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/Kitura~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/Kitura.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/LinkParameter.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/LinkParameter.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/LinkParameter~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/LinkParameter.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/MimeTypeAcceptor.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/MimeTypeAcceptor.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/MimeTypeAcceptor~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/MimeTypeAcceptor.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/RouteRegex.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouteRegex.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouteRegex~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouteRegex.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/Router.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/Router.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/Router~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/Router.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/RouterElement.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterElement.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterElement~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterElement.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/RouterElementWalker.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterElementWalker.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterElementWalker~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterElementWalker.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/RouterHTTPVerbs+Error.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterHTTPVerbs+Error.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterHTTPVerbs+Error~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterHTTPVerbs+Error.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/RouterHTTPVerbs_generated.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterHTTPVerbs_generated.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterHTTPVerbs_generated~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterHTTPVerbs_generated.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/RouterHandler.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterHandler.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterHandler.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/RouterMethod.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterMethod.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterMethod~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterMethod.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/RouterMiddleware.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterMiddleware.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterMiddleware.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/RouterMiddlewareGenerator.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterMiddlewareGenerator.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterMiddlewareGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterMiddlewareGenerator.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/RouterMiddlewareWalker.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterMiddlewareWalker.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterMiddlewareWalker~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterMiddlewareWalker.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/RouterParameterWalker.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterParameterWalker.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterParameterWalker~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterParameterWalker.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/RouterRequest.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterRequest.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterRequest.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/RouterResponse.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterResponse.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/RouterResponse.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/SSLConfig.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/SSLConfig.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/SSLConfig~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/SSLConfig.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/Stack.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/Stack.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/Stack~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/Stack.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/String+Extensions.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/String+Extensions.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/String+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/String+Extensions.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/SwaggerGenerator.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/SwaggerGenerator.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/SwaggerGenerator~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/SwaggerGenerator.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/TemplatingError.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/TemplatingError.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/TemplatingError~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/TemplatingError.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/TypeSafeMiddleware.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/TypeSafeMiddleware.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/TypeSafeMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/TypeSafeMiddleware.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/bodyParser/BodyParser.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/BodyParser.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/BodyParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/BodyParser.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/bodyParser/BodyParserProtocol.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/BodyParserProtocol.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/BodyParserProtocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/BodyParserProtocol.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/bodyParser/JSONBodyParser.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/JSONBodyParser.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/JSONBodyParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/JSONBodyParser.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/bodyParser/MultiPartBodyParser.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/MultiPartBodyParser.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/MultiPartBodyParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/MultiPartBodyParser.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/bodyParser/ParsedBody.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/ParsedBody.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/ParsedBody~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/ParsedBody.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/bodyParser/Part.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/Part.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/Part~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/Part.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/bodyParser/RawBodyParser.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/RawBodyParser.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/RawBodyParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/RawBodyParser.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/bodyParser/TextBodyParser.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/TextBodyParser.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/TextBodyParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/TextBodyParser.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/bodyParser/URLEncodedBodyParser.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/URLEncodedBodyParser.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/URLEncodedBodyParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/bodyParser/URLEncodedBodyParser.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/contentType/ContentType.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/contentType/ContentType.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/contentType/ContentType~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/contentType/ContentType.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/contentType/MediaType.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/contentType/MediaType.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/contentType/MediaType~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/contentType/MediaType.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/contentType/types.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/contentType/types.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/contentType/types~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/contentType/types.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/staticFileServer/CacheRelatedHeadersSetter.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/staticFileServer/CacheRelatedHeadersSetter.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/staticFileServer/CacheRelatedHeadersSetter~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/staticFileServer/CacheRelatedHeadersSetter.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/staticFileServer/CompositeHeadersSetter.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/staticFileServer/CompositeHeadersSetter.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/staticFileServer/CompositeHeadersSetter~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/staticFileServer/CompositeHeadersSetter.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/staticFileServer/FileServer.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/staticFileServer/FileServer.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/staticFileServer/FileServer~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/staticFileServer/FileServer.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/staticFileServer/RangeHeader.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/staticFileServer/RangeHeader.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/staticFileServer/RangeHeader~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/staticFileServer/RangeHeader.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/staticFileServer/ResourcePathHandler.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/staticFileServer/ResourcePathHandler.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/staticFileServer/ResourcePathHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/staticFileServer/ResourcePathHandler.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/staticFileServer/ResponseHeadersSetter.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/staticFileServer/ResponseHeadersSetter.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/staticFileServer/ResponseHeadersSetter~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/staticFileServer/ResponseHeadersSetter.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura/Sources/Kitura/staticFileServer/StaticFileServer.swift": {
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/staticFileServer/StaticFileServer.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/staticFileServer/StaticFileServer~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/release/Kitura.build/staticFileServer/StaticFileServer.swiftdeps"
+  }
+}

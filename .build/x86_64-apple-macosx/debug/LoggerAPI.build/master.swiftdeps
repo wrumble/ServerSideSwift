@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "2dc87f76f591ba45bbf86ef515f4f411"
+build_time: [1568336955, 783062000]
+inputs:
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/LoggerAPI/Sources/LoggerAPI/Logger.swift": [1568336941, 4976952]

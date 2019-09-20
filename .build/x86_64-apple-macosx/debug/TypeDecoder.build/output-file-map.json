@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/TypeDecoder.build/master.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/TypeDecoder/Sources/TypeDecoder/OrderedDictionary.swift": {
+    "dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/TypeDecoder.build/OrderedDictionary.d",
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/TypeDecoder.build/OrderedDictionary.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/TypeDecoder.build/OrderedDictionary~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/TypeDecoder.build/OrderedDictionary.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/TypeDecoder/Sources/TypeDecoder/TypeDecoder.swift": {
+    "dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/TypeDecoder.build/TypeDecoder.d",
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/TypeDecoder.build/TypeDecoder.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/TypeDecoder.build/TypeDecoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/TypeDecoder.build/TypeDecoder.swiftdeps"
+  }
+}

@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "c255eeedb2e9bb9da55bb86ca79244f0"
+build_time: [1568412324, 554694000]
+inputs:
+  "/Users/waynerumble/Desktop/ServerSideSwift/Sources/ServerSideSwift/main.swift": [9223372036, 854775807]

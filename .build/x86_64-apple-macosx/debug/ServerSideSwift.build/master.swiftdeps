@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "08dc3d6f40f6a93760000f374055645e"
+build_time: [1569005299, 304327000]
+inputs:
+  "/Users/waynerumble/Desktop/ServerSideSwift/Sources/ServerSideSwift/App.swift": [1569005290, 738948053]
+  "/Users/waynerumble/Desktop/ServerSideSwift/Sources/ServerSideSwift/User/User.swift": [1569004185, 456514131]
+  "/Users/waynerumble/Desktop/ServerSideSwift/Sources/ServerSideSwift/User/UserPersistence.swift": [1569004096, 696065562]
+  "/Users/waynerumble/Desktop/ServerSideSwift/Sources/ServerSideSwift/User/UserRoutes.swift": [1569004469, 663842727]
+  "/Users/waynerumble/Desktop/ServerSideSwift/Sources/ServerSideSwift/main.swift": [1569005267, 340870336]

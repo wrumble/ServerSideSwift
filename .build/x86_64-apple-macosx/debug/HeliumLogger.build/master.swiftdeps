@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "29f0f43c5d88cf97c59abb09f8c1afd3"
+build_time: [1569003179, 659951000]
+inputs:
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/HeliumLogger/Sources/HeliumLogger/HeliumLogHandler.swift": [1569003173, 683342180]
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/HeliumLogger/Sources/HeliumLogger/HeliumLogger.swift": [1569003173, 683641808]
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/HeliumLogger/Sources/HeliumLogger/HeliumStreamLogger.swift": [1569003173, 684031574]

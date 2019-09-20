@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/Socket.build/master.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/BlueSocket/Sources/Socket/Socket.swift": {
+    "dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/Socket.build/Socket.d",
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/Socket.build/Socket.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/Socket.build/Socket~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/Socket.build/Socket.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/BlueSocket/Sources/Socket/SocketProtocols.swift": {
+    "dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/Socket.build/SocketProtocols.d",
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/Socket.build/SocketProtocols.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/Socket.build/SocketProtocols~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/Socket.build/SocketProtocols.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/BlueSocket/Sources/Socket/SocketUtils.swift": {
+    "dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/Socket.build/SocketUtils.d",
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/Socket.build/SocketUtils.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/Socket.build/SocketUtils~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/Socket.build/SocketUtils.swiftdeps"
+  }
+}

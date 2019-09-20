@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "dffc629e1ba3f5d2eb3765d91d385e9e"
+build_time: [1568412292, 422841000]
+inputs:
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/KituraContracts/Sources/KituraContracts/BodyDecoder.swift": [9223372036, 854775807]
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/KituraContracts/Sources/KituraContracts/BodyEncoder.swift": [9223372036, 854775807]
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/KituraContracts/Sources/KituraContracts/BodyFormat.swift": [9223372036, 854775807]
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/KituraContracts/Sources/KituraContracts/ClosureAliases.swift": [9223372036, 854775807]
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/KituraContracts/Sources/KituraContracts/CodableQuery/Coder.swift": [9223372036, 854775807]
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/KituraContracts/Sources/KituraContracts/CodableQuery/Extensions.swift": [9223372036, 854775807]
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/KituraContracts/Sources/KituraContracts/CodableQuery/QueryDecoder.swift": [9223372036, 854775807]
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/KituraContracts/Sources/KituraContracts/CodableQuery/QueryEncoder.swift": [9223372036, 854775807]
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/KituraContracts/Sources/KituraContracts/Contracts.swift": [9223372036, 854775807]

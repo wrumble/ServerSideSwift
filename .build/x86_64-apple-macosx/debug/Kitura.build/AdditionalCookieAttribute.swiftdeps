@@ -1,0 +1,90 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AdditionalCookieAttribute"
+provides-nominal:
+- "6Kitura25AdditionalCookieAttributeV"
+- "6Kitura25AdditionalCookieAttributeV01_cD0O"
+provides-member:
+- ["6Kitura25AdditionalCookieAttributeV", ""]
+- ["6Kitura25AdditionalCookieAttributeV01_cD0O", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AdditionalCookieAttribute"
+- "AssignmentPrecedence"
+- "Bool"
+- "Date"
+- "Int"
+- "NSNumber"
+- "String"
+- "URL"
+depends-member:
+- ["6Kitura25AdditionalCookieAttributeV", "AdditionalCookieAttribute"]
+- ["6Kitura25AdditionalCookieAttributeV", "Bool"]
+- ["6Kitura25AdditionalCookieAttributeV", "Date"]
+- ["6Kitura25AdditionalCookieAttributeV", "Int"]
+- ["6Kitura25AdditionalCookieAttributeV", "NSNumber"]
+- ["6Kitura25AdditionalCookieAttributeV", "String"]
+- ["6Kitura25AdditionalCookieAttributeV", "URL"]
+- ["6Kitura25AdditionalCookieAttributeV", "_CookieAttribute"]
+- ["6Kitura25AdditionalCookieAttributeV", "_value"]
+- ["6Kitura25AdditionalCookieAttributeV", "comment"]
+- ["6Kitura25AdditionalCookieAttributeV", "commentURL"]
+- ["6Kitura25AdditionalCookieAttributeV", "discard"]
+- ["6Kitura25AdditionalCookieAttributeV", "expires"]
+- !private ["6Kitura25AdditionalCookieAttributeV", "init"]
+- ["6Kitura25AdditionalCookieAttributeV", "isSecure"]
+- ["6Kitura25AdditionalCookieAttributeV", "maximumAge"]
+- ["6Kitura25AdditionalCookieAttributeV", "originURL"]
+- ["6Kitura25AdditionalCookieAttributeV", "portList"]
+- ["6Kitura25AdditionalCookieAttributeV", "version"]
+- ["6Kitura25AdditionalCookieAttributeV01_cD0O", "Bool"]
+- ["6Kitura25AdditionalCookieAttributeV01_cD0O", "Date"]
+- ["6Kitura25AdditionalCookieAttributeV01_cD0O", "Int"]
+- ["6Kitura25AdditionalCookieAttributeV01_cD0O", "NSNumber"]
+- ["6Kitura25AdditionalCookieAttributeV01_cD0O", "String"]
+- ["6Kitura25AdditionalCookieAttributeV01_cD0O", "URL"]
+- ["6Kitura25AdditionalCookieAttributeV01_cD0O", "comment"]
+- ["6Kitura25AdditionalCookieAttributeV01_cD0O", "commentURL"]
+- ["6Kitura25AdditionalCookieAttributeV01_cD0O", "discard"]
+- ["6Kitura25AdditionalCookieAttributeV01_cD0O", "expires"]
+- ["6Kitura25AdditionalCookieAttributeV01_cD0O", "isSecure"]
+- ["6Kitura25AdditionalCookieAttributeV01_cD0O", "maximumAge"]
+- ["6Kitura25AdditionalCookieAttributeV01_cD0O", "originURL"]
+- ["6Kitura25AdditionalCookieAttributeV01_cD0O", "portList"]
+- ["6Kitura25AdditionalCookieAttributeV01_cD0O", "version"]
+depends-nominal:
+- "6Kitura25AdditionalCookieAttributeV"
+- "6Kitura25AdditionalCookieAttributeV01_cD0O"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/LoggerAPI.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/SSLService.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/KituraTemplateEngine.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/TypeDecoder.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/KituraContracts.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/KituraNet.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/Socket.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura-net/Sources/CHTTPParser/include/CHTTPParser.h"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura-net/Sources/CHTTPParser/include/http_parser.h"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura-net/Sources/CHTTPParser/include/utils.h"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/CHTTPParser.build/module.modulemap"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura-net/Sources/CCurl/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4b9451928ba5832907d8f8e441c8504c"

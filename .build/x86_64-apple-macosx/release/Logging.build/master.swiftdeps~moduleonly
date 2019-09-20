@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "6e59d055b97028c12cd2de2eff347d24"
+build_time: [1568412288, 230890000]
+inputs:
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/swift-log/Sources/Logging/Locks.swift": [9223372036, 854775807]
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/swift-log/Sources/Logging/LogHandler.swift": [9223372036, 854775807]
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/swift-log/Sources/Logging/Logging.swift": [9223372036, 854775807]

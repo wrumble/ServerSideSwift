@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/HeliumLogger.build/master.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/HeliumLogger/Sources/HeliumLogger/HeliumLogHandler.swift": {
+    "dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/HeliumLogger.build/HeliumLogHandler.d",
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/HeliumLogger.build/HeliumLogHandler.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/HeliumLogger.build/HeliumLogHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/HeliumLogger.build/HeliumLogHandler.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/HeliumLogger/Sources/HeliumLogger/HeliumLogger.swift": {
+    "dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/HeliumLogger.build/HeliumLogger.d",
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/HeliumLogger.build/HeliumLogger.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/HeliumLogger.build/HeliumLogger~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/HeliumLogger.build/HeliumLogger.swiftdeps"
+  },
+  "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/HeliumLogger/Sources/HeliumLogger/HeliumStreamLogger.swift": {
+    "dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/HeliumLogger.build/HeliumStreamLogger.d",
+    "object": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/HeliumLogger.build/HeliumStreamLogger.swift.o",
+    "swiftmodule": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/HeliumLogger.build/HeliumStreamLogger~partial.swiftmodule",
+    "swift-dependencies": "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/HeliumLogger.build/HeliumStreamLogger.swiftdeps"
+  }
+}

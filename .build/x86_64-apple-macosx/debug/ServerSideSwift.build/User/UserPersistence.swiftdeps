@@ -1,0 +1,178 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "15ServerSideSwift4UserV11PersistenceC"
+provides-member:
+- ["15ServerSideSwift4UserV", ""]
+- ["15ServerSideSwift4UserV11PersistenceC", ""]
+- ["15ServerSideSwift4UserV", "Persistence"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "BooleanLiteralType"
+- !private "CouchDBError"
+- "Database"
+- "Error"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- !private "Log"
+- "String"
+- "StringLiteralType"
+- "User"
+- "Void"
+depends-member:
+- !private ["7CouchDB20AllDatabaseDocumentsV", "decodeDocuments"]
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["7CouchDB8DatabaseC", "create"]
+- !private ["7CouchDB8DatabaseC", "delete"]
+- !private ["7CouchDB8DatabaseC", "retrieve"]
+- !private ["7CouchDB8DatabaseC", "retrieveAll"]
+- !private ["Se", "Log"]
+- !private ["Se", "String"]
+- !private ["Se", "User"]
+- !private ["Se", "_rev"]
+- !private ["Se", "id"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["7CouchDB8DocumentP", "Log"]
+- !private ["7CouchDB8DocumentP", "String"]
+- !private ["7CouchDB8DocumentP", "User"]
+- !private ["7CouchDB8DocumentP", "_rev"]
+- !private ["7CouchDB16DocumentResponseV", "id"]
+- !private ["SE", "Log"]
+- !private ["SE", "String"]
+- !private ["SE", "User"]
+- !private ["SE", "_rev"]
+- !private ["SE", "id"]
+- !private ["SE", "init"]
+- !private ["SQ", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "init"]
+- !private ["15KituraContracts10IdentifierP", "init"]
+- !private ["9LoggerAPI3LogC", "error"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["15ServerSideSwift4UserV11PersistenceC", "CouchDBError"]
+- ["15ServerSideSwift4UserV11PersistenceC", "Database"]
+- ["15ServerSideSwift4UserV11PersistenceC", "Error"]
+- !private ["15ServerSideSwift4UserV11PersistenceC", "Log"]
+- ["15ServerSideSwift4UserV11PersistenceC", "String"]
+- ["15ServerSideSwift4UserV11PersistenceC", "User"]
+- ["15ServerSideSwift4UserV11PersistenceC", "Void"]
+- ["15ServerSideSwift4UserV11PersistenceC", "delete"]
+- ["15ServerSideSwift4UserV11PersistenceC", "getAll"]
+- ["15ServerSideSwift4UserV11PersistenceC", "init"]
+- ["15ServerSideSwift4UserV11PersistenceC", "save"]
+- !private ["Sm", "init"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["15ServerSideSwift4UserV", "CouchDBError"]
+- ["15ServerSideSwift4UserV", "Database"]
+- ["15ServerSideSwift4UserV", "Error"]
+- !private ["15ServerSideSwift4UserV", "Log"]
+- ["15ServerSideSwift4UserV", "Persistence"]
+- ["15ServerSideSwift4UserV", "String"]
+- ["15ServerSideSwift4UserV", "User"]
+- ["15ServerSideSwift4UserV", "Void"]
+- !private ["15ServerSideSwift4UserV", "_rev"]
+- !private ["15ServerSideSwift4UserV", "deinit"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "7CouchDB20AllDatabaseDocumentsV"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "7CouchDB8DatabaseC"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "7CouchDB8DocumentP"
+- !private "7CouchDB16DocumentResponseV"
+- !private "SE"
+- !private "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "15KituraContracts10IdentifierP"
+- !private "9LoggerAPI3LogC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "15ServerSideSwift4UserV11PersistenceC"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "15ServerSideSwift4UserV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/CouchDB.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/LoggerAPI.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/Kitura.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/SSLService.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/KituraTemplateEngine.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/TypeDecoder.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/HeliumLogger.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/KituraContracts.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/KituraNet.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/Socket.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura-net/Sources/CHTTPParser/include/CHTTPParser.h"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura-net/Sources/CHTTPParser/include/http_parser.h"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura-net/Sources/CHTTPParser/include/utils.h"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/x86_64-apple-macosx/debug/CHTTPParser.build/module.modulemap"
+- "/Users/waynerumble/Desktop/ServerSideSwift/.build/checkouts/Kitura-net/Sources/CCurl/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6f087ad8100e05d6f4ab2412b57d0b96"
