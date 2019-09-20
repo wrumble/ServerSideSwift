@@ -52,7 +52,7 @@ Currently the database doesnt work in docker but to run the app for the first ti
 
 `docker-compose up --build`
 
-if no changes have been made to the image you can run just ``docker-compose up` after this.
+if no changes have been made to the image you can run just `docker-compose up` after this.
 
 ## Steps to re-create app
 
