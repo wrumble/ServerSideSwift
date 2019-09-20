@@ -1,27 +1,30 @@
 # ServerSideSwift
 
-## Steps to re-create app: 
+## Steps to re-create app
 
 Install Swift, Heroku and Docker on your machine
 
 ## Create the app
 
 ### Create app root directory
+
 `mkdir YourAppName`
 
 `cd YourAppName`
 
 ### Autogenerate package files
+
 `git init`
 
 `swift package init --type executable`
 
 ### Add packages(optional)
+
 `open Package.swift`
 
 In `Package.swift` in the empty `depenendencies` array add a package using its repo url and version number
 
-```
+```swift
 dependencies: [
         .package(url: "https://github.com/IBM-Swift/Kitura", from: "2.7.0")
     ],
@@ -29,7 +32,7 @@ dependencies: [
 
 Then add the package name to the `target` you will use in, in this case the main app
 
-```
+```swift
     targets: [
         .target(
             name: "YourAppName",
@@ -37,13 +40,14 @@ Then add the package name to the `target` you will use in, in this case the main
 ```
 
 ### Build the app
+
 `swift build`
 
 ### Write some code
 
 Add code to `Sources/YourAppName/main.swift` in this case Kitura is used to setup the app routes like so
 
-```
+```swift
 import Kitura
 import Foundation
 
@@ -85,19 +89,23 @@ Kitura.run()
 ```
 
 ### Make app executable from Xcode(optional)
+
 `swift package generate-xcodeproj`
 
 ### Run the app
+
 `swift run` note: currently doesnt work on Catalina MacOs
 
 alternatively run it in Xcode by pressing play, this will require you to have run `swift package generate-xcodeproj` before hand though.
 
 ### View the app
+
 To see the app go to `http://localhost:<YourPortNumber>` in this case our port number is `8080`
 
 ## Setup app as Docker container
 
 ### Create `Dockerfile`
+
 Still in app root directory
 
 `touch Dockerfile`
@@ -105,7 +113,8 @@ Still in app root directory
 `open Dockerfile`
 
 In `Dockerfile` add
-```
+
+```swift
 # This could be "FROM swift:latest" but then you would have to install other packages via the "RUN" command to prepare the app for Kitura. 
 FROM ibmcom/swift-ubuntu:5.0.2
 
@@ -123,19 +132,23 @@ CMD .build/release/YourAppName
 ```
 
 ### Create the docker container
-Once registered with Docker and Docker installed 
+
+Once registered with Docker and Docker installed
 
 `docker build -t your-container-name .` note: container name must be lowercase
 
 ### Test run the app in the new container
+
 `docker run --rm -it -p YourPortNumber:YourPortNumber your-container-name`
 
-You can view it again at `http://localhost:<YourPortNumber>` 
+You can view it again at `http://localhost:<YourPortNumber>`
 
 ## Push new container to Heroku
+
 Once registered with Heroku and Heroku installed
 
 ### Add all files and commit to git
+
 This prepares the app to be pushed to Heroku as a repo
 
 `git add .`
@@ -143,6 +156,7 @@ This prepares the app to be pushed to Heroku as a repo
 `git commit -m "Initial Commit"`
 
 ### Login
+
 Login to Heroku
 
 `heroku login`
@@ -154,21 +168,27 @@ Login into the Heroku container
 Follow prompts to login
 
 ### Create app on Heroku
+
 `heroku create HerokuAppName`
 
 ### Push Docker contatiner to Heroku
+
 `heroku container:push web --app HerokuAppName`
 
 ### Release app on Heroku
+
 `heroku container:release web -a HerokuAppName`
 
 ### View running app on Heroku
+
 `heroku open`
 
-### View logs of Heroku app 
+### View logs of Heroku app
+
 `heroku logs --tail`
 
-###  Test App on Heroku
+### Test App on Heroku
+
 Make get request on homepage
 
 `curl -X GET https://HerokuAppName.herokuapp.com/`
@@ -177,4 +197,5 @@ Post a User to the Heroku app
 
 `curl -X POST https://HerokuAppName.herokuapp.com/user -H 'content-type: application/json' -d '{"name": "Wayne"}'`
 
+Next i followed the RayWenderlich tutorial on Kitura and Couchdb found [here](https://www.raywenderlich.com/1079484-kitura-tutorial-getting-started-with-server-side-swift)
 
