@@ -26,23 +26,23 @@ Docker can be installed using:
 
 To run the app, after you have installed the above and logged into `Heroku` and `Docker` you need to run:
 
-Download the app
+Download the app:
 
 `git clone git@github.com:wrumble/ServerSideSwift.git`
 
 `cd ServerSideSwift`
 
-Build the app package
+Build the app package:
 
 `swift build`
 
 `swift package generate-xcodeproj`
 
-Start couchdb
+Start couchdb:
 
 `brew services start couchdb`
 
-Run the App
+Run the App:
 
 `swift run` note: this wont work on Catalina beta, if so run `xed .` then `Command + R` after xcode opens.
 
