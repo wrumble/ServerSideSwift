@@ -17,7 +17,7 @@ public class App {
     let router = Router()
     
     private func postInit() {
-        let connectionProperties = ConnectionProperties(host: "db",
+        let connectionProperties = ConnectionProperties(host: "localhost",
                                                         port: 5984,
                                                         secured: true,
                                                         username: "Test",
