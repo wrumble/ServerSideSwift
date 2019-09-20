@@ -19,7 +19,7 @@ public class App {
     private func postInit() {
         let connectionProperties = ConnectionProperties(host: "localhost",
                                                         port: 5984,
-                                                        secured: false,
+                                                        secured: true,
                                                         username: "Test",
                                                         password: "test")
         
