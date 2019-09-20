@@ -197,5 +197,6 @@ Post a User to the Heroku app
 
 `curl -X POST https://HerokuAppName.herokuapp.com/user -H 'content-type: application/json' -d '{"name": "Wayne"}'`
 
-Next i followed the RayWenderlich tutorial on Kitura and Couchdb found [here](https://www.raywenderlich.com/1079484-kitura-tutorial-getting-started-with-server-side-swift)
+## Adding a database using Couchdb
 
+Next i followed the RayWenderlich tutorial on Kitura and Couchdb found [here](https://www.raywenderlich.com/1079484-kitura-tutorial-getting-started-with-server-side-swift)
