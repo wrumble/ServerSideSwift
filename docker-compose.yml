@@ -13,8 +13,8 @@ services:
     ports:
       - "5984:5984"
     environment:
-      COUCHDB_USER: Wayne
-      COUCHDB_PASSWORD: 123456
+      COUCHDB_USER: Test
+      COUCHDB_PASSWORD: test
     networks:
       - app-net
 networks:
