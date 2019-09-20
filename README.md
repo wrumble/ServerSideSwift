@@ -1,8 +1,52 @@
 # ServerSideSwift
 
-## Steps to re-create app
+## To build and run
 
-Install Swift, Heroku and Docker on your machine
+### Requirements
+
+You need `Swift`, and `CouchDB` only to the run the latest version of the app. To deploy to Heroku you will need `Heroku` and `Docker` too.
+
+Swift can be installed using:
+
+`brew install swift`
+
+Couchdb can be installed using:
+
+`brew install couchdb`
+
+Heroku can be installed using:
+
+`brew tap heroku/brew && brew install heroku`
+
+Docker can be installed using:
+
+`brew cask install docker`
+
+### Running the app
+
+To run the app, after you have installed the above and logged into `Heroku` and `Docker` you need to run:
+
+`git clone git@github.com:wrumble/ServerSideSwift.git`
+
+`cd ServerSideSwift`
+
+`swift build`
+
+`swift package generate-xcodeproj`
+
+`brew services start couchdb`
+
+`swift run` note: this wont work on Catalina beta, if so run `xed .` then `Command + R` after xcode opens.
+
+### Runnig the app on a Docker container
+
+Currently the database doesnt work in docker but to run the app for the first time use:
+
+`docker-compose up --build`
+
+if no changes have been made to the image you can run just ``docker-compose up` after this.
+
+## Steps to re-create app
 
 ## Create the app
 
@@ -200,3 +244,4 @@ Post a User to the Heroku app
 ## Adding a database using Couchdb
 
 Next i followed the RayWenderlich tutorial on Kitura and Couchdb found [here](https://www.raywenderlich.com/1079484-kitura-tutorial-getting-started-with-server-side-swift) but i carried on using a `User` instead of `Acronymys` in the tutorial
+
