@@ -199,4 +199,4 @@ Post a User to the Heroku app
 
 ## Adding a database using Couchdb
 
-Next i followed the RayWenderlich tutorial on Kitura and Couchdb found [here](https://www.raywenderlich.com/1079484-kitura-tutorial-getting-started-with-server-side-swift)
+Next i followed the RayWenderlich tutorial on Kitura and Couchdb found [here](https://www.raywenderlich.com/1079484-kitura-tutorial-getting-started-with-server-side-swift) but i carried on using a `User` instead of `Acronymys` in the tutorial
