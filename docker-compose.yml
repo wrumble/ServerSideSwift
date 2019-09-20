@@ -1,0 +1,22 @@
+version: "3.7"
+services:
+  web:
+    build: .
+    ports:
+      - "8080:8080"
+    links:
+      - db
+    networks:
+      - app-net
+  db:
+    image: couchdb
+    ports:
+      - "5984:5984"
+    environment:
+      COUCHDB_USER: Wayne
+      COUCHDB_PASSWORD: 123456
+    networks:
+      - app-net
+networks:
+  app-net:
+    driver: bridge

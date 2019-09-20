@@ -1,29 +1,14 @@
+//
+//  main.swift
+//
+//  Created by Wayne Rumble on 20/09/2019.
+//
+
 import Kitura
-import Foundation
+import HeliumLogger
+import LoggerAPI
 
-struct User: Codable {
-    let name: String
-}
+HeliumLogger.use()
 
-let router = Router()
-
-router.get("/") { request, response, next in
-    response.send("Hello Waynes world!")
-    next()
-}
-
-router.post("/user") { request, response, next in
-    var message: String
-    do {
-        let user = try request.read(as: User.self)
-        message = "Hello \(user.name)!"
-    } catch let error {
-        message = "Couldnt read movie: \(error)"
-    }
-    response.send(message)
-    next()
-}
-let port = Int(ProcessInfo.processInfo.environment["PORT"] ?? "8080") ?? 8080
-
-Kitura.addHTTPServer(onPort: port, with: router)
-Kitura.run()
+let app = App()
+app.run()

@@ -20,12 +20,30 @@
         }
       },
       {
+        "package": "HeliumLogger",
+        "repositoryURL": "https://github.com/IBM-Swift/HeliumLogger.git",
+        "state": {
+          "branch": null,
+          "revision": "146a36c2a91270e4213fa7d7e8192cd2e55d0ace",
+          "version": "1.9.0"
+        }
+      },
+      {
         "package": "Kitura",
-        "repositoryURL": "https://github.com/IBM-Swift/Kitura",
+        "repositoryURL": "https://github.com/IBM-Swift/Kitura.git",
         "state": {
           "branch": null,
           "revision": "0777165ed5b966ad2e62f9f9101cfa8b283e7684",
           "version": "2.8.1"
+        }
+      },
+      {
+        "package": "Kitura-CouchDB",
+        "repositoryURL": "https://github.com/IBM-Swift/Kitura-CouchDB.git",
+        "state": {
+          "branch": null,
+          "revision": "63cc919bbe3904c8e55eea821c1e7cbb1dda0c47",
+          "version": "3.2.0"
         }
       },
       {
