@@ -58,9 +58,11 @@ public class App {
     }
     
     public func run() {
+        let port = Int(ProcessInfo.processInfo.environment["PORT"] ?? "8080") ?? 8080
+
         postInit()
 
-        Kitura.addHTTPServer(onPort: 8080, with: router)
+        Kitura.addHTTPServer(onPort: port, with: router)
         Kitura.run()
     }
 }
