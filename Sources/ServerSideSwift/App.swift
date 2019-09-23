@@ -19,17 +19,18 @@ public class App {
     private func postInit() {
         let connectionProperties = ConnectionProperties(host: "db",
                                                         port: 5984,
-                                                        secured: true,
+                                                        secured: false,
                                                         username: "Test",
                                                         password: "test")
         
         client = CouchDBClient(connectionProperties: connectionProperties)
+
         client!.retrieveDB("users") { database, error in
             guard let database = database else {
                 Log.info("Could not retrieve user database: "
                     + "\(String(describing: error?.localizedDescription)) "
                     + "- attempting to create new one.")
-                self.createNewDatabase()
+                self.createUsersDatabase()
                 return
             }
             
@@ -38,7 +39,7 @@ public class App {
         }
     }
     
-    private func createNewDatabase() {
+    private func createUsersDatabase() {
         client?.createDB("users") { database, error in
             guard let database = database else {
                 Log.error("Could not create new database: "
@@ -57,8 +58,8 @@ public class App {
     }
     
     public func run() {
-        // 6
         postInit()
+
         Kitura.addHTTPServer(onPort: 8080, with: router)
         Kitura.run()
     }
