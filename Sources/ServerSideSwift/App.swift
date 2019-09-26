@@ -25,7 +25,7 @@ public class App {
         
         client = CouchDBClient(connectionProperties: connectionProperties)
 
-        client!.retrieveDB("users") { database, error in
+        client!.retrieveDB("user") { database, error in
             guard let database = database else {
                 Log.info("Could not retrieve user database: "
                     + "\(String(describing: error?.localizedDescription)) "
@@ -34,7 +34,7 @@ public class App {
                 return
             }
             
-            Log.info("Users database located - loading...")
+            Log.info("User database located - loading...")
             self.finalizeRoutes(with: database)
         }
     }

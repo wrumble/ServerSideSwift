@@ -11,6 +11,8 @@ services:
       - "8080:8080"
     networks:
       - app-net
+    links:
+      - db:db
 
   db:
     image: couchdb
